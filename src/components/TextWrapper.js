@@ -1,11 +1,7 @@
 import React from "react";
 
-const TextWrapper = () => {
-  return (
-    <>
-      <textarea className="text-wrapper" ></textarea>
-    </>
-  );
+const TextWrapper = ({ text }) => {
+  return <textarea className="text-wrapper">{text}</textarea>;
 };
 
 export default TextWrapper;

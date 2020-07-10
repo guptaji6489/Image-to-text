@@ -1,14 +1,21 @@
 import React from "react";
 
-const ImageWrapper = () => {
+const ImageWrapper = ({ uploadFile, loading }) => {
   return (
-    <>
-      <div className="image-wrapper">
+    <div className="image-wrapper">
+      {loading ? (
+        <h2>Processing... please wait</h2>
+      ) : (
         <form>
-          <input type="file" className="custom-file-input" name="image" />
+          <input
+            type="file"
+            class="custom-file-input"
+            name="image"
+            onChange={e => uploadFile(e)}
+          />
         </form>
-      </div>
-    </>
+      )}
+    </div>
   );
 };
 
