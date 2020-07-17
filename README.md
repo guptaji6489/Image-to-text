@@ -1,4 +1,4 @@
-install - npm i tesseract.js
+install this package - npm i tesseract.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
