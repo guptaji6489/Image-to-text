@@ -4,7 +4,7 @@ const ImageWrapper = ({ uploadFile, loading }) => {
   return (
     <div className="image-wrapper">
       {loading ? (
-        <h2>Processing... please wait</h2>
+        <h2>Processing.... please wait</h2>
       ) : (
         <form>
           <input
