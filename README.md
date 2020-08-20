@@ -1,5 +1,6 @@
-first run - npm install
-install this package to use this project - npm i tesseract.js
+## first run - npm install
+
+## install this package to use this project - npm i tesseract.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
